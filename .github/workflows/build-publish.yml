@@ -26,9 +26,9 @@ jobs:
               id: setup-cli
               env:
                 JF_URL: https://${{ secrets.JF_URL }}/
-                JF_PROJECT: 'vigneshs'
+                JF_PROJECT: 'harithaa-github'
               with:
-                  oidc-provider-name: vigneshs-github
+                  oidc-provider-name: harithaa-github
                   oidc-audience: jfrog-github-oidc
 
             - name: Checkout the repository
